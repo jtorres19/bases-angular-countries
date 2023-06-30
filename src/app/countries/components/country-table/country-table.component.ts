@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Country} from "../../interfaces/country";
+import {CountryInterface} from "../../interfaces/country.interface";
 
 @Component({
   selector: 'country-table',
@@ -8,5 +8,5 @@ import {Country} from "../../interfaces/country";
 })
 export class CountryTableComponent {
   @Input()
-  countries: Country[] = []
+  countries: CountryInterface[] = []
 }

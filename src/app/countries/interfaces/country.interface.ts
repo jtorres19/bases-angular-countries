@@ -1,4 +1,4 @@
-export interface Country {
+export interface CountryInterface {
   name: Name;
   tld: string[];
   cca2: string;
